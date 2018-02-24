@@ -5,10 +5,30 @@
 /* For the surprise.html, the first ID attribute is */
 /* added for you. */
 #one {
-    border:10px solid orange;
-    background-color:lightblue;
+    border-style:solid; 
+    border-color: #ff4d4d;
 }
 
+#two {
+    border:solid; 
+    border-color: #ffa64d;
+}
+
+#three {
+    border:solid; 
+    border-color: #ffff4d;
+}
+
+#four {
+    border:solid; 
+    border-color: #4dff4d;
+}
+
+#five {
+    border:solid; 
+    border-color: #4da6ff;
+
+}
 /* For the gohere.html file, I've also added a couple of */
 /* things here as well... but do refer to the pdf instructions */
 /* to be able to know what you are doing. :) */
@@ -17,14 +37,33 @@
     flex-direction:column;
 }
 
+.panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    color:black;
+    font-size:20px;
+    margin: auto;
+    width: 50%;
+}
+
 h1 {
     text-align:center;
     font-size:70px;
-    border:3px solid blue;
-    color:blue;
+    border-style: solid;
+    border-color: #6600cc;
+    color: #6600cc;
     margin-top:-5px;
 }
 
+h2 {
+    text-align:center;
+    font-size:25px;
+    color:black;
+    margin-top:15px;
+    margin-bottom:15px;
+}
 h3 {
     text-align:center;
     font-size:30px;
